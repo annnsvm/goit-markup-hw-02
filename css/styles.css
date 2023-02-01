@@ -9,7 +9,9 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-white-color);
+  color:var(--text-color-light);
 }
 
 ul {
@@ -24,7 +26,6 @@ a {
 
 .logo-first {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 0.75;
@@ -35,7 +36,6 @@ a {
 
 .logo-second {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 0.75;
@@ -51,7 +51,6 @@ a {
 /* NAVIGATION */
 
 .site-nav .link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -59,22 +58,20 @@ a {
   color: var(--text-color-bold);
 }
 
-.site-nav .link:active {
-  color: var(--conditions-color);
-}
 
 .site-nav .link.current {
   color: var(--conditions-color);
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus{
   color: var(--conditions-color);
 }
 
 /* ADDRESS */
 
 .site-contacts .contacts {
-  font-style: normal;
+    font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -95,7 +92,6 @@ a {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1;
   text-align: center;
@@ -114,6 +110,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button.primary {
@@ -122,7 +119,8 @@ a {
   border-color: transparent;
 }
 
-.button.primary:hover {
+.button.primary:hover,
+.button.primary:focus {
   background-color: #404bbf;
 }
 
@@ -133,7 +131,8 @@ a {
   border-radius: 4px;
 }
 
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   background-color: var(--conditions-color);
   color: var(--primary-white-color);
 }
@@ -156,7 +155,6 @@ a {
 
 /* about */
 .about.title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   color: var(--text-color-bold);
@@ -169,7 +167,6 @@ a {
   background-color: var(--background-color-light);
 }
 .team.title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
