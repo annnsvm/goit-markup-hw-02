@@ -25,7 +25,7 @@ a {
 /* LOGO */
 
 .logo-first {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 0.75;
@@ -35,7 +35,7 @@ a {
 }
 
 .logo-second {
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 0.75;
@@ -78,11 +78,9 @@ a {
   color: var(--text-color-light);
 }
 
-.site-contacts .contacts:active {
-  color: var(--conditions-color);
-}
 
-.site-contacts .contacts:hover {
+.site-contacts .contacts:hover,
+.site-contacts .contacts:focus {
   color: var(--conditions-color);
 }
 /* HERO */
