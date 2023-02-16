@@ -520,7 +520,8 @@ margin-bottom: 8px;
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .portfolio-item:nth-last-child(-n + 3){
