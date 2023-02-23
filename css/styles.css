@@ -814,14 +814,12 @@ transform: translate(-50%,-50%) scale(0.9);
 
 }
 
-.modal-close{
-  display: flex;
-  justify-content: flex-end;
-  padding-top:24px ;
-  padding-right: 24px;
-}
+
 
 .modal-item {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -831,6 +829,8 @@ transform: translate(-50%,-50%) scale(0.9);
   fill: currentColor;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
