@@ -54,7 +54,53 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal ">
-            <button data-modal-close class="modal-item "><svg class="modal-icon"><use href="./images/icons.svg#close"></use></svg></button></div>
+            <button data-modal-close class="modal-item "><svg class="modal-icon"><use href="./images/icons.svg#close"></use></svg></button>
+          <div class="form-modal">
+            <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+          
+          <form autocomplete="off" novalidate >
+
+            <label class="form-label" for="name">Name</label>
+            <div class="form-field">
+              <input class="form-input" type="text" name="name" id="name">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#visitor"></use>  
+              </svg>
+            </div>
+            
+            <label class="form-label" for="tel">Phone</label>
+            <div class="form-field">
+            <input class="form-input" type="tel" name="tel" id="tel">
+            <svg class="form-icon">
+              <use href="./images/icons.svg#phone"></use>  
+            </svg>
+          </div>
+            
+          <label class="form-label" for="email">Email</label>
+            <div class="form-field">
+            <input class="form-input" type="email" name="email" id="email">
+            <svg class="form-icon">
+              <use href="./images/icons.svg#letter"></use>  
+            </svg>
+          </div>
+
+            <div class="form-field">
+            <label class="form-label" for="comment">Comment</label>
+            <textarea class="form-text" name="comment" id="comment" placeholder="Text input"></textarea>
+          </div>
+
+          <div class="checkbox-modal">
+            <input class="checkbox-input" type="checkbox" name="policy" id="policy" >
+            <span class="checkbox-icon"></span>
+            <label class="checkbox-label" for="policy">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+          </div>
+          </form>
+          <button type="submit" class="button primary">Send</button>
+        </div>
+        
+        
+
+          </div>
         </div>
       </section>
      
@@ -374,6 +420,18 @@
         </a>
             </li>
         </ul>
+      </div>
+      <div class="container-footer-form">
+        <form autocomplete="off" novalidate>
+          <div class="form-container">
+            <div class="subscribe-form">
+            <label class="label" for="user-email">Subscribe</label>
+            <input class="input" type="email" name="email" id="user-email" placeholder="E-mail">
+          </div>
+            <button type="submit" class="button primary form">Subscribe</button>
+          </div>
+          
+        </form>
       </div>
     </div>
     </footer>
