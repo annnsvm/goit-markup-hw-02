@@ -909,7 +909,7 @@ margin-bottom: 16px;
 .form-input{
   background-color: #FCFCFC;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  
+  outline: none;
 }
 
 .form-input:focus {
@@ -926,6 +926,7 @@ margin-bottom: 16px;
   padding: 11px 11px 11px 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
 }
 
 
@@ -934,6 +935,7 @@ margin-bottom: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
+  outline: none;
 }
 
 .form-text input {
@@ -941,6 +943,7 @@ margin-bottom: 16px;
   padding: 11px 11px 11px 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
 }
 
 
@@ -982,7 +985,7 @@ cursor: pointer;
 
 .checkbox-input{
   appearance: none;
-
+outline: none;
 }
 
 .checkbox-icon{
@@ -1034,6 +1037,7 @@ margin-bottom: 16px;
   width: 264px;
   height: 40px;
   color: var(--primary-white-color);
+  outline: none;
 }
 
 .input:focus {
